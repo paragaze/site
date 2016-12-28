@@ -4,3 +4,17 @@ title: Blog
 ---
 
 <h3>WELCOME</h3>
+{% for post in site.posts %}
+<div class="col-sm-3">
+
+<a class="blog-links" href="{{site.baseurl}}{{ post.url }}">
+<img src="{{ post.preview-img }}" class="img-responsive" alt="">
+<h2 class="title-style">{{ post.title }}</h2>
+</a>
+
+<span class="text-muted">{{ post.date | date: "%b %-d, %Y" }} </span>
+<p>{{ post.meta}}</p>
+
+</div>
+
+{% endfor %}
