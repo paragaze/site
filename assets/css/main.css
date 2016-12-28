@@ -1,0 +1,14 @@
+.blog-links{
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+
+}
+
+.blog-links:hover {
+  color: #000;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
