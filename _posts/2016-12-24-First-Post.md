@@ -4,6 +4,8 @@ title: A Moreso First Post
 meta: The Very Very First One
 published: true
 comments: true
+category: Art
+heading: Art
 preview-img: assets/img/logo1.png
 baseurl: /site
 ---
