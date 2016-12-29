@@ -3,7 +3,8 @@ layout: default
 title: Blog
 ---
 
-
+<!-- I think I want to nest this stuff in a div container, to make blog not take up whole page, to give room for like a sidebar and whatnot -->
+<div class="col-md-8 col-sm-8 col-xs-12">
 {% for post in site.posts %}
 
 <div class="col-md-3 col-sm-4 col-xs-12">
@@ -19,4 +20,6 @@ title: Blog
 </div>
 
 
+
 {% endfor %}
+</div>
