@@ -1,14 +1,48 @@
+body {
+  font-family: 'Lora', serif;
+}
+.nav-links{
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+
+}
+
+.nav-links:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 .blog-links{
   text-decoration: none;
   list-style-type: none;
   color: #000;
 
 }
-
+.navbar-brand{
+  max-height: 40px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .blog-links:hover {
   color: #000;
   text-decoration: none;
 }
 ul{
   list-style-type: none;
+  display: inline;
+}
+
+#disqus_thread{
+  padding-top: 50px;
+}
+
+.icon-bar{
+  color: #000000;
+}
+
+.navbar-brand{
+  color: #000;
 }
