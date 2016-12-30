@@ -46,3 +46,10 @@ ul{
 .navbar-brand{
   color: #000;
 }
+.post-category-header {
+  margin: 0 0 5px;
+}
+
+.spacing {
+  margin-top: 10px;
+}
