@@ -4,7 +4,7 @@ title: Another Post
 meta: The Second One
 published: true
 comments: true
-category: Literature
+category: literature
 heading: Literature
 preview-img: assets/img/logo1.png
 baseurl: /site

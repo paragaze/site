@@ -4,7 +4,7 @@ title: A Fourth Post
 meta: The Fourth One
 published: true
 comments: true
-category: Art
+category: art
 heading: Art
 preview-img: assets/img/logo1.png
 baseurl: /site
