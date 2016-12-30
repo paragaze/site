@@ -6,6 +6,7 @@ published: true
 comments: true
 category: art
 heading: Art
+tags: [Art]
 preview-img: assets/img/logo1.png
 baseurl: /site
 permalink: /:title/

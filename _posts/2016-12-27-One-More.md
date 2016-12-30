@@ -6,6 +6,7 @@ published: true
 comments: true
 category: literature
 heading: Literature
+tags: [Literature]
 preview-img: assets/img/logo1.png
 baseurl: /site
 permalink: /:title/

@@ -6,7 +6,8 @@ baseurl: /site
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-8 col-md-offset-2" id="blog-centring">
-<div class="post-category-header"><p> {{ page.category | capitalize }} </p></div>
+<div class="post-category-header"><p> {{ page.tags | sort | join: ", " }} </p></div>
+
 <h2 class="spacing">{{ page.title }}</h2>
 <p>{{ page.date | date: '%B %d, %Y' }} •
 {% assign words = content | number_of_words %}
