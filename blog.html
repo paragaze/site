@@ -14,7 +14,7 @@ title: Blog
 <h4 class="title-style">{{ post.title }}</h4>
 </a>
 
-<span class="text-muted">{{ post.date | date: "%b %-d, %Y" }} </span>
+<span class="text-muted">{{ post.date | date: "%b %-d, %Y" }} • {{ post.category | capitalize }} </span>
 <p>{{ post.meta}}</p>
 
 </div>
