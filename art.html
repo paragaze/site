@@ -1,17 +1,17 @@
 ---
 layout: default
-permalink: /tags/literature/
+permalink: /tags/art/
 title: Tags
 ---
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-8 col-md-offset-2" id="blog-centring">
-<h3> Literature </h3>
+<h3> Art </h3>
 
     <h3 class="tag-head">{{ tag_name | capitalize }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
-    {% for post in site.tags.Literature %}
+    {% for post in site.tags.Art %}
     <article class="archive-item">
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
