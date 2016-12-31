@@ -6,7 +6,7 @@ published: true
 comments: true
 category: literature
 heading: Literature
-tags: [Literature]
+tags: [Politics]
 preview-img: assets/img/logo1.png
 baseurl: /site
 permalink: /:title/

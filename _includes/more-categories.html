@@ -1,10 +1,8 @@
-
-
-{% if post.tags == Art %}
+{% if page.category == 'art' %}
 <div class="col-md-8 col-md-offset-2">
-  <h3> More Art Posts </h3>
+  <h3> More {{page.heading}} Posts </h3>
 
-{% for post in site.tags.Art %}
+{% for post in site.categories.art %}
 
 {% if post.url !=page.url %}
 
@@ -31,11 +29,11 @@
 {% endif %}
 
 
-{% if post.tags == Literature %}
+{% if page.category == 'literature' %}
 <div class="col-md-8 col-md-offset-2">
-  <h3> More Literature Posts </h3>
+  <h3> More {{page.heading}} Posts </h3>
 
-{% for post in site.tags.Literature %}
+{% for post in site.categories.literature %}
 
 {% if post.url !=page.url %}
 
@@ -61,8 +59,3 @@
 
 
 {% endif %}
-
-
-
-
-<!--make these includes infinite scroll -->

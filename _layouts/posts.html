@@ -6,7 +6,7 @@ baseurl: /site
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-8 col-md-offset-2" id="blog-centring">
-<div class="post-category-header"><p> {{ page.tags | sort | join: ", " }} </p></div>
+<div class="post-category-header"><p> {{ page.tags | join: ", " }} </p></div>
 
 <h2 class="spacing">{{ page.title }}</h2>
 <p>{{ page.date | date: '%B %d, %Y' }} •
@@ -47,5 +47,13 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 </div>
 <!-- WORK ON: view more posts jekyll loop for under the comments section. like view more of a category, then after that, view more of a keyword -->
-
-{% include more-blogs.html %}
+<div class="container">
+  <div class="row">
+{% include tagforposts.html %}
+</div>
+</div>
+<div class="container">
+  <div class="row">
+{% include more-categories.html %}
+</div>
+</div>

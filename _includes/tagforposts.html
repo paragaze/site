@@ -1,0 +1,34 @@
+
+  <div class="col-md-8 col-md-offset-2">
+
+<h3>Related Posts</h3>
+{% for post in site.posts %}
+
+{% if post.url !=page.url %}
+    {% assign sameTagCount = 0 %}
+
+    {% for tag in post.tags %}
+        {% if page.tags contains tag %}
+
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+
+        {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= 1 %}
+      <div class="col-md-3 col-sm-4 col-xs-12">
+        <a class="blog-links" href="{{site.baseurl}}{{ post.url }}">
+        <img src="{{site.baseurl}}/{{ post.preview-img }}" class="img-responsive" alt="">
+        <h4 class="title-style">{{ post.title }}</h4></a>
+
+        <span class="text-muted">{{ post.date | date: "%b %-d, %Y" }} • {{ post.category | capitalize }} </span>
+        <p>{{ post.meta}}</p>
+      </div>
+    {% endif %}
+
+{% endif %}
+{% endfor %}
+
+
+</div>
