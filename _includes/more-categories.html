@@ -1,5 +1,5 @@
 {% if page.category == 'art' %}
-<div class="col-md-8 col-md-offset-2">
+
   <h3> More {{page.heading}} Posts </h3>
 
 {% for post in site.categories.art %}
@@ -24,13 +24,13 @@
 {% endfor %}
 
 
-</div>
+
 
 {% endif %}
 
 
 {% if page.category == 'literature' %}
-<div class="col-md-8 col-md-offset-2">
+
   <h3> More {{page.heading}} Posts </h3>
 
 {% for post in site.categories.literature %}
@@ -55,7 +55,7 @@
 {% endfor %}
 
 
-</div>
+
 
 
 {% endif %}

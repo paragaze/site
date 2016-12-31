@@ -53,6 +53,7 @@ ul{
 
 .spacing {
   margin-top: 10px;
+  margin-left: 0px;
 }
 
 .catbloc:not(:target) {
