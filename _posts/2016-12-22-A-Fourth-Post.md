@@ -11,6 +11,8 @@ preview-img: assets/img/logo1.png
 baseurl: /site
 permalink: /:title/
 ---
-
+<head>
+<meta property="og:description"        content="How much does culture influence creative thinking?" />
+</head>
 Hi Guys, I hope you will enjoy what this blog eventually has to offer.
 Thanks, keep in touchhhhh.
