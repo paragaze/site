@@ -20,10 +20,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-
-    <nav class="navbar navbar-default">
+  <body class="menu">
+    <header>
+<div class="sidebar">
+  <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+  <a href="#" class="menu-toggle"><span class= "glyphicon glyphicon-menu-hamburger"></span></a>
+  <nav class="menu-side">
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Blog</li>
+    <li>Contact</li>
+  </ul>
+</div>
+</div>
+    <nav class="navbar navbar-default hidden-xs">
   <div class="container-fluid">
+    <div class="col-sm-12">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -40,7 +53,10 @@
   <li><a class="nav-links" href="{{site.baseurl}}/blog">Blog</a></li>
 
 </ul>
+</div>
+</div>
 </nav>
+</header>
 
     {{content}}
 
@@ -51,5 +67,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+        <script>
+        (function() {
+        var body = $('body');
+        $('.menu-toggle').bind('click', function () {
+          body.toggleClass('menu-open');
+          return false;
+        });
+      })();
+      </script>
       </body>
     </html>

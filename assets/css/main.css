@@ -59,3 +59,40 @@ ul{
 .catbloc:not(:target) {
     display: none;
 }
+
+.menu-side,
+.menu {
+  -webkit-transition: right 0.2s ease;
+  -moz-transition: right 0.2s ease;
+  transition: right 0.2s ease;
+}
+
+.menu-side {
+  background-color: #333;
+  border-right: 1px solid #000;
+  color: #fff;
+  position: fixed;
+  top:0;
+  right: -231px;
+  width: 210px;
+  height: 100%;
+  padding: 10px;
+}
+
+.menu {
+  overflow-x: hidden;
+  position: relative;
+  right: 0;
+}
+
+.menu-open{
+  right: 231px;
+}
+
+.menu-open .menu-side {
+  right: 0;
+}
+
+.menu-toggle{
+  float: right;
+}
