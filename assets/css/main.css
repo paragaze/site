@@ -96,3 +96,19 @@ ul{
 .menu-toggle{
   float: right;
 }
+
+#hamburger{
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 15px;
+  padding-top: 10px;
+}
+
+#hamburger span{
+  padding-top: 3px;
+  height: 2px;
+  background:#111;
+  margin-bottom: 5px;
+  display: block;
+}
