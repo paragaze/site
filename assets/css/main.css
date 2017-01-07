@@ -95,6 +95,7 @@ ul{
 
 .menu-toggle{
   float: right;
+  padding-top: 20px;
 }
 
 #hamburger{
@@ -102,7 +103,7 @@ ul{
   vertical-align: middle;
   width: 25px;
   height: 15px;
-  padding-top: 10px;
+
 }
 
 #hamburger span{
