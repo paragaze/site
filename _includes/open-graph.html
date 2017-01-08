@@ -11,10 +11,10 @@
 {% else %}
   <meta content="website" property="og:type">
 {% endif %}
-{% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
+{% if page.meta %}
+  <meta content="{{ page.meta }}" property="og:description">
 {% else %}
-  <meta content="{{ site.description }}" property="og:description">
+  <meta content="{{ site.meta }}" property="og:description">
 {% endif %}
 {% if page.url %}
   <meta content="{{ site.url }}{{ page.url }}" property="og:url">
