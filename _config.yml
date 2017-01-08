@@ -5,7 +5,7 @@ name: "Paragaze"
 description: "New Writings on Art and Culture"
 url: https://paragaze.github.io
 logo: /assets/img/logo1.png
-locale: en_ca
+locale: en-ca
 author:
   facebook: davidbroadfoot
   twitter: davidbroadfoot
