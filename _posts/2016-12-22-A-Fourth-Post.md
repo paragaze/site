@@ -10,7 +10,7 @@ tags: [Art , Literature]
 preview-img: assets/img/logo1.png
 baseurl: /site
 permalink: /:title/
-image: assets/img/logo1.png
+image: /assets/img/logo1.png
 description: The Fourth One, dawg
 ---
 
