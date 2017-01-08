@@ -3,7 +3,7 @@ exclude: [README.md]
 permalink: pretty
 name: "Paragaze"
 description: "New Writings on Art and Culture"
-url: {{site.url}}
+url: https://paragaze.github.io
 logo: /assets/img/logo1.png
 locale: en_ca
 author:
