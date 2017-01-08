@@ -1,6 +1,11 @@
 baseurl: /site
 exclude: [README.md]
 permalink: pretty
-
-gems:
-  -jekyll-seo-tag
+name: "Paragaze"
+description: "New Writings on Art and Culture"
+url: {{site.url}}
+logo: /assets/img/logo1.png
+locale: en_ca
+author:
+  facebook: davidbroadfoot
+    twitter: davidbroadfoot
