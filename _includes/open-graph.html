@@ -29,6 +29,8 @@
   <meta content="/img/posts/{{ page.preview-img }}" property="og:image">
 {% else %}
   <meta content="/img/logo-high-resolution.png" property="og:image">
+  {% else %}
+  <meta content="/img/posts/{{ post.preview-img }}" property="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
