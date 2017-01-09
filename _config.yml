@@ -2,6 +2,7 @@ baseurl: /site
 exclude: [README.md]
 permalink: pretty
 name: Paragaze
+title: Paragaze
 description: "New Writings on Art and Culture"
 url: https://paragaze.github.io
 logo: /assets/img/logo1.png
