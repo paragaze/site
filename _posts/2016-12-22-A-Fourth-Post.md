@@ -7,7 +7,7 @@ comments: true
 category: art
 heading: Art
 tags: [Art , Literature]
-preview-img: assets/img/logo1.png
+preview-img: assets/img/Untitled-2.png
 baseurl: /site
 permalink: /:title/
 image: /assets/img/Untitled-2.png

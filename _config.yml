@@ -1,11 +1,11 @@
 baseurl: /site
 exclude: [README.md]
 permalink: pretty
-name: "Paragaze"
+name: Paragaze
 description: "New Writings on Art and Culture"
 url: https://paragaze.github.io
 logo: /assets/img/logo1.png
-locale: en-ca
+locale: en_CA
 author:
   facebook: davidbroadfoot
   twitter: davidbroadfoot
