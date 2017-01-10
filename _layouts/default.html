@@ -82,6 +82,14 @@
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/site/assets/img/logo1.png">
 {% endif %}
+<meta name="description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip_newlines | truncate: 160 | escape_once }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+{% endif %}
+
+<link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
+
   </head>
   <body class="menu">
     <header>
